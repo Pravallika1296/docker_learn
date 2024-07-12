@@ -9,6 +9,4 @@ COPY . /home/frst_webapp:1.0
 
 WORKDIR /home/frst_webapp:1.0
 
-RUN npm install
-
-CMD ["node", "serve.js"]
+CMD ["node", "server.js"]
